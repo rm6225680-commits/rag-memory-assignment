@@ -1,0 +1,4 @@
+User: What is the best way to handle long text documents in a RAG system?
+Assistant: You should split long text into smaller chunks with some overlap so that context isn't cut off mid-sentence. Then, generate embeddings for each chunk individually.
+User: Makes sense. And how does the LLM answer queries?
+Assistant: The user query is embedded, the closest matching text chunks are retrieved from the database, and both the query and the retrieved context are passed to Gemini to generate an accurate answer.

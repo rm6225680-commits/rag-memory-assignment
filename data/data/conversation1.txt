@@ -1,0 +1,4 @@
+User: Hi, I am preparing for a backend engineering role involving Java, Spring Boot, and AI integration.
+Assistant: That sounds like a great path! Spring Boot handles robust REST APIs while Spring AI or direct LLM SDKs can power intelligent features like RAG memory systems.
+User: Exactly. I want to make sure I understand how vector databases store text chunks.
+Assistant: Vector databases like ChromaDB store chunks alongside their numerical embeddings so you can perform semantic similarity search later.
